@@ -20,14 +20,17 @@ Sneha Sinha, 2016098
 	1) to compile the driver and generate .ko files.
 	2) compile the test files.
 	
-##### 4. sudo insmod encdev.ko/decdev.ko
-	- to load the module
+##### 4. To load the modules
+	sudo insmod encdev.ko
+	sudo insmod decdev.ko
 	
-##### 5. sudo rmmod encdev/decdev 
-	- to unload the module
+##### 5. To unload the modules
+	sudo rmmod encdev
+	sudo rmmod decdev 
 
-##### 6. lsmod | grep encdev/decdev
-	- to check if encdev or decdev is currenlty loaded or not.
+##### 6. To check if encdev or decdev is currently loaded or not
+	lsmod | grep encdev
+	lsmod | grep decdev
 	
 ##### 7. To run the test files -
 	1. For encdev
